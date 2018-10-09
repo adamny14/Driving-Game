@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/racing game adam.unity
+  isLoaded: 1
+  isActive: 1
