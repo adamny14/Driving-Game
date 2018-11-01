@@ -55,6 +55,8 @@
   <ItemGroup>
      <Compile Include="Assets\CarUserControlMod.cs" />
      <Compile Include="Assets\CompleteCameraController.cs" />
+     <Compile Include="Assets\Monotype\Examples\Scripts\Timer2D.cs" />
+     <Compile Include="Assets\Monotype\Examples\Scripts\Timer3D.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -64,10 +66,17 @@
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\Timer.cs" />
+     <None Include="Assets\Monotype\Resources\Shaders\DistanceFieldOutlineShader.shader" />
      <None Include="Assets\race-track-lake\readmore.txt" />
+     <None Include="Assets\StreamingAssets\Monotype\AndroidFontFallback.txt" />
      <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
+     <None Include="Assets\StreamingAssets\Monotype\WindowsFontFallback.txt" />
      <None Include="Assets\Foliage Free\Readme.txt" />
+     <None Include="Assets\StreamingAssets\Monotype\IOSFontFallback.txt" />
      <None Include="Assets\KajamansRoads\Free\ReadMe.txt" />
+     <None Include="Assets\Monotype\Resources\Shaders\DistanceFieldShader.shader" />
+     <None Include="Assets\StreamingAssets\Monotype\OSXFontFallback.txt" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/adama/Documents/Racing Game/Racing Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -284,6 +293,9 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/adama/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="MonotypeUnityTextPlugin-Scripts">
+ <HintPath>C:/Users/adama/Documents/Racing Game/Racing Game/Assets/Monotype/Scripts/MonotypeUnityTextPlugin-Scripts.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
