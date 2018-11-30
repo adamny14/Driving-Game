@@ -199,3 +199,4 @@ C:\Users\adama\Documents\Racing Game\Racing Game\obj\Debug\Assembly-CSharp-Edito
 C:\Users\adama\Documents\Racing Game\Racing Game\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
 C:\Users\adama\Documents\Racing Game\Racing Game\Temp\bin\Debug\MonotypeUnityTextPlugin-Editor.dll
 C:\Users\adama\Documents\Racing Game\Racing Game\Temp\bin\Debug\MonotypeUnityTextPlugin-Scripts.dll
+C:\Users\adama\Documents\Racing Game\Racing Game\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

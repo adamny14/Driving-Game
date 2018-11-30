@@ -161,9 +161,9 @@ C:\Users\adama\Documents\Racing Game\Racing Game\Temp\bin\Debug\UnityEngine.Netw
 C:\Users\adama\Documents\Racing Game\Racing Game\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 C:\Users\adama\Documents\Racing Game\Racing Game\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\adama\Documents\Racing Game\Racing Game\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
-C:\Users\adama\Documents\Racing Game\Racing Game\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
 C:\Users\adama\Documents\Racing Game\Racing Game\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
 C:\Users\adama\Documents\Racing Game\Racing Game\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
 C:\Users\adama\Documents\Racing Game\Racing Game\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\adama\Documents\Racing Game\Racing Game\obj\Debug\Assembly-CSharp-firstpass.pdb
 C:\Users\adama\Documents\Racing Game\Racing Game\Temp\bin\Debug\MonotypeUnityTextPlugin-Scripts.dll
+C:\Users\adama\Documents\Racing Game\Racing Game\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
