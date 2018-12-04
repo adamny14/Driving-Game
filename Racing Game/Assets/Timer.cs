@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour {
     public Text countdown; //UI Text Object
     private int time = 0;
     public GameObject s;
+    private bool gameOver = false;
     void Start()
     {
         StartCoroutine("startTime");
@@ -24,7 +25,22 @@ public class Timer : MonoBehaviour {
             Destroy(s);
             time += 10;
         }
-       
+
+        if (col.gameObject.CompareTag("FinishLine") && time > 30)
+        {
+            //col.gameObject.SetActive(false);
+            //Destroy(s);
+            if (time < maxTime - 30)
+            {
+                countdown.text = ("You Won - Your Time: " + time + " is less than the target time!");
+                gameOver = true;
+            }
+            else if (time > maxTime - 30)
+            {
+                countdown.text = ("You Lost - Your Time: " + time + " is greater than the target time!");
+                gameOver = true;
+            }
+        }
 
     }
 
@@ -32,13 +48,9 @@ public class Timer : MonoBehaviour {
 
     void Update()
     {
-        if (time > maxTime)
-            countdown.text = ("You have Lost");
-        else
-        {
-            
-                countdown.text = ("" + time); //Showing the Score on the Canvas
-            
+        if (gameOver == false)
+        {  
+                countdown.text = ("" + time); //Showing the Score on the Canvas            
         }
     }
     //Simple Co-routine
