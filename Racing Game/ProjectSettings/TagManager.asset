@@ -7,6 +7,7 @@ TagManager:
   - Car
   - Barrel
   - FinishLine
+  - CarObject
   layers:
   - Default
   - TransparentFX
