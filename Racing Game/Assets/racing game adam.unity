@@ -1419,7 +1419,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 2}
       propertyPath: m_FullTorqueOverAllWheels
-      value: 1700
+      value: 1550
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 2}
       propertyPath: m_CarDriveType
@@ -8327,7 +8327,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -127}
-  m_SizeDelta: {x: 450, y: 30}
+  m_SizeDelta: {x: 550, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171255257
 MonoBehaviour:
@@ -10717,7 +10717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd4ba3e6d391527449cfffd7e576e468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 150
+  maxTime: 215
   countdown: {fileID: 1171255257}
   s: {fileID: 0}
 --- !u!65 &1503317006
